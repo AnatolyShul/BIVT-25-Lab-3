@@ -16,7 +16,7 @@ namespace Lab3
                 y = double.Parse(Console.ReadLine());
                 if ((x * x + y * y >= r1 * r1) && (x * x + y * y <= r2 * r2))
                 {
-                    count++;
+                    count--;
                 }
             }
             // end
